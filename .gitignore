@@ -1,0 +1,7 @@
+.cache/
+build/
+*.swp
+compile_commands.json
+build_debug/
+build_release/
+

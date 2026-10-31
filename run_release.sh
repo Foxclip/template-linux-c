@@ -3,6 +3,6 @@
 ./build_release.sh
 if [ $? -eq 0 ]; then
     echo
-    ./build_release/template-linux-c "$@"
+    ./build_release/@@@PROJECT_NAME@@@ "$@"
 fi
 

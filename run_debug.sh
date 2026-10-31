@@ -3,6 +3,6 @@
 ./build_debug.sh
 if [ $? -eq 0 ]; then
     echo
-    ./build_debug/template-linux-c "$@"
+    ./build_debug/@@@PROJECT_NAME@@@ "$@"
 fi
 
